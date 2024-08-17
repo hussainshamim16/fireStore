@@ -1,0 +1,52 @@
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/bg-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+/* 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+} */
+
+/* section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+    
+    /* border: 2px solid red; */
+} */
+section .images{
+    width: 40%;
+    padding-left: 30px;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+section .images img{
+    width: 70%;
+}
+section .text{
+    /* border: 2px solid red; */
+    width: 70%;
+}
+section .text h1{
+    font-size: 3.5em;
+}
+section .text p{
+    font-size: 1.2em;
+}
+section .text button{
+    padding: 10px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+}

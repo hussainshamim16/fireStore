@@ -1,0 +1,38 @@
+:root{
+    --bg1 :#363b4e ;
+    --bg2 : #4f3b78;
+    --bg3 : #927fbf;
+    --bg4 : #c4bbf0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: var(--bg1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section{
+    width: 20%;
+    /* border: 1px solid red; */
+    background-color: var(--bg3);
+    border-radius: 20px;
+    height:95vh;
+}
+section.ChatSection{
+width: 50%;
+overflow: hidden;
+padding: 0px 30px;
+}
+section.ChatSection header{
+display: flex;
+margin-top: 10px;
+}
+section.ChatSection header img{
+    width: 13%;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
